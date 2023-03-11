@@ -1,0 +1,7 @@
+我们的代码是基于pix2pix的pytorch版本修改得到的，所以pytorch环境配置参照pix2pix。
+
+训练：
+python ./train.py --dataroot ./datasets --name zyresult --model zy_result2 --dataset_mode zyunaligned --num_threads 4 --save_epoch_freq 20 --display_id 0
+
+测试:
+python ./test.py --dataroot ./datasets --name zyresult --model zy_result2 --dataset_mode zyunaligned --num_test 1000

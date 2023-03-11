@@ -1,0 +1,3 @@
+﻿trainA和testA：薄云图像
+trainB和testB：无云图像
+
